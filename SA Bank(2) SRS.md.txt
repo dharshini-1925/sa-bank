@@ -1,0 +1,164 @@
+SA Bank – Software Requirements Specification (SRS)
+
+1. Introduction
+1.1 Project Name
+
+SA Bank – Banking Management System
+
+1.2 Purpose
+
+The SA Bank system is developed to provide basic banking services through a simple and secure application.
+It allows customers to manage their accounts and perform common banking operations.
+The system reduces manual work and provides faster access to banking services.
+
+1.3 Scope
+
+The system allows customers to register and securely log in to their accounts.
+Customers can check balance, deposit money, withdraw money, transfer money, and view transactions.
+Administrators can manage customer accounts and monitor banking activities.
+
+2. Overall Description
+2.1 Product Perspective
+
+SA Bank is a banking management system that manages customer accounts and transactions.
+The system stores customer and transaction information in a database.
+It provides a user-friendly interface for customers and administrators.
+
+2.2 Users of the System
+
+Customer
+
+Register and log in.
+Check account balance.
+Deposit and withdraw money.
+Transfer money.
+View transaction history.
+
+Administrator
+
+Manage customer accounts.
+Monitor transactions.
+Maintain customer information.
+Manage the banking system.
+3. Functional Requirements
+FR1 – User Registration
+
+The system shall allow new customers to create an account.
+The customer shall provide the required personal and account information.
+The system shall store the information securely.
+
+FR2 – User Login
+
+The system shall allow registered users to log in using valid credentials.
+The system shall verify the user's login information.
+Unauthorized users shall not be allowed to access the account.
+
+FR3 – Account Management
+
+The system shall allow customers to view their account details.
+Customers shall be able to manage their basic account information.
+The administrator shall be able to manage customer accounts.
+
+FR4 – Balance Checking
+
+The system shall display the current account balance.
+Customers shall be able to check their balance at any time.
+The balance shall be updated after every transaction.
+
+FR5 – Deposit
+
+The system shall allow customers to deposit money into their accounts.
+The system shall validate the deposit amount.
+The account balance shall be updated after a successful deposit.
+
+FR6 – Withdrawal
+
+The system shall allow customers to withdraw money from their accounts.
+The system shall check whether sufficient balance is available.
+The account balance shall be updated after a successful withdrawal.
+
+FR7 – Fund Transfer
+
+The system shall allow customers to transfer money to another account.
+The system shall verify the sender and receiver account details.
+The transaction shall be recorded after a successful transfer.
+
+FR8 – Transaction History
+
+The system shall maintain records of customer transactions.
+Customers shall be able to view their transaction history.
+The transaction details shall include the transaction type, amount, and date.
+
+4. Non-Functional Requirements
+4.1 Security
+
+The system shall protect customer information from unauthorized access.
+User credentials shall be securely managed.
+Only authorized users shall access banking functions.
+
+4.2 Performance
+
+The system shall respond quickly to user requests.
+Transactions should be processed without unnecessary delay.
+The system should support multiple users efficiently.
+
+4.3 Reliability
+
+The system shall process banking transactions accurately.
+Transaction data shall be stored safely.
+The system should minimize data loss and failures.
+
+4.4 Usability
+
+The system shall have a simple and user-friendly interface.
+Users should be able to perform banking operations easily.
+Clear messages shall be displayed for successful and failed operations.
+
+4.5 Maintainability
+
+The system shall be easy to maintain and update.
+Errors should be easily identified and corrected.
+New banking features can be added when required.
+
+5. Hardware Requirements
+Computer or laptop
+Minimum 4 GB RAM
+Minimum 10 GB free storage
+Keyboard and mouse
+Internet connection
+6. Software Requirements
+Windows/Linux operating system
+Web browser
+Git and GitHub
+Visual Studio Code or another code editor
+Database management system
+Required programming language and development tools
+7. System Workflow
+User
+  ?
+Registration / Login
+  ?
+Authentication
+  ?
+Banking Dashboard
+  ?
+ +----------------------+
+ ¦ Check Balance        ¦
+ ¦ Deposit Money        ¦
+ ¦ Withdraw Money       ¦
+ ¦ Transfer Money       ¦
+ ¦ Transaction History  ¦
+ +----------------------+
+  ?
+Logout
+8. Security Requirements
+The system shall provide secure user authentication.
+Customer information shall be protected.
+Unauthorized access shall be prevented.
+Transactions shall be validated before processing.
+User sessions shall be securely managed.
+9. Conclusion
+
+The SA Bank system provides basic banking services through a simple and secure platform.
+It helps customers manage their accounts and perform banking transactions efficiently.
+The system can be enhanced in the future by adding features such as online bill payment, mobile banking, notifications, and advanced security.
